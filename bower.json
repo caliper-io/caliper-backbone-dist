@@ -1,0 +1,23 @@
+{
+  "name": "caliper-backbone",
+  "version": "0.4.2",
+  "homepage": "https://github.com/caliper-io/caliper-backbone-dist",
+  "authors": [
+    "caliper <team@caliper.io>"
+  ],
+  "description": "caliper backbone library",
+  "keywords": [
+    "caliper",
+    "analytics",
+    "monitoring",
+    "backbone"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
