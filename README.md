@@ -37,7 +37,7 @@ by Caliper and displayed on your performance reports, so you will be able to
 easily pinpoint the source of any performance issues.
 
     // You can assign this attribute as you define your view:
-    SCaliperIoApp.Views.NavbarView = Backbone.View.extend({
+    MyApp.Views.NavbarView = Backbone.View.extend({
       __name__: "NavbarView",
 
       events: {
@@ -48,11 +48,11 @@ easily pinpoint the source of any performance issues.
     });
 
     // You can also assign the __name__ attribute after a view has been defined:
-    SCaliperIoApp.Views.NavbarView.__name__ = "NavbarView";
+    MyApp.Views.NavbarView.__name__ = "NavbarView";
 
     // This makes it very easy to name all your views in one go:
-    for(var viewName in SCaliperIoApp.Views){
-      SCaliperIoApp.Views[viewName].__name__ = viewName;
+    for(var viewName in MyApp.Views){
+      MyApp.Views[viewName].__name__ = viewName;
     }
 
 
