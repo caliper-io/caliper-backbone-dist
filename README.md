@@ -20,7 +20,7 @@ any of your application's code are loaded.
 If you are using any Backbone extensions, such as marionette.js, be sure to load
 caliper.backbone.js before you load such extensions.
 
-## Configuring your API Key
+### Configuring your API Key
 
 Include the following Javascript snippet to configure Caliper
 
@@ -29,7 +29,7 @@ Include the following Javascript snippet to configure Caliper
     };
 
 
-## Optional: Name your Backbone Views
+### Optional: Name your Backbone Views
 
 To provide more context for your performance reports you can optionally assign a
 \_\_name\_\_ attribute to your Backbone views. This attribute will be picked up 
